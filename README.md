@@ -1,4 +1,4 @@
-## Classification of Real Natural Disaster Tweets
+## Natural Disaster Fake Tweets Detection
 This is a repository of research project (WQD7002) consisting of datasets, EDA notebook, classifier module and application
 
 ### Objective
