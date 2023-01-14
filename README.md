@@ -7,3 +7,6 @@ This is a repository of research project (WQD7002) consisting of datasets, EDA n
 
 ### Dataset
 Source of dataset is obtained and extracted from https://www.kaggle.com/datasets/vstepanenko/disaster-tweets
+
+#### Disclaimer
+Unfortunately, the pickle model file is too large to be uploaded into Git (i.e. 130MB)
