@@ -8,5 +8,12 @@ This is a repository of research project (WQD7002) consisting of datasets, EDA n
 ### Dataset
 Source of dataset is obtained and extracted from https://www.kaggle.com/datasets/vstepanenko/disaster-tweets
 
+### How to deploy the model as web app (Flask)
+1) Create a conda virtual environment
+2) Install the required packages from requirements.txt
+3) Run the app.py file
+4) Copy and paste the given Flask IP adress in your browser
+5) Done!
+
 #### Disclaimer
 Unfortunately, the pickle model file is too large to be uploaded into Git (i.e. 130MB)
