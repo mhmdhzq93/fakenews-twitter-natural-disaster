@@ -33,7 +33,8 @@ def avg_score_list(X_train, y_train):
     cvs_prec = [cross_val_score(clf, X_train, y_train, cv = cv, scoring = 'precision', n_jobs=-1).mean() for clf in clf_list]
     cvs_rec = [cross_val_score(clf, X_train, y_train, cv = cv, scoring = 'recall', n_jobs=-1).mean() for clf in clf_list]
     cvs_f1 = [cross_val_score(clf, X_train, y_train, cv = cv, scoring = 'f1', n_jobs=-1).mean() for clf in clf_list]
-    return cvs_acc, cvs_prec, cvs_rec, cvs_f1
+    cvs_auc = [cross_val_score(clf, X_train, y_train, cv = cv, scoring = 'roc_auc', n_jobs=-1).mean() for clf in clf_list]
+    return cvs_acc, cvs_prec, cvs_rec, cvs_f1, cvs_auc
 
 
 def score_df(X_train, y_train) -> pd.DataFrame:
@@ -43,6 +44,7 @@ def score_df(X_train, y_train) -> pd.DataFrame:
     allscore_df["Average_precision_score"] = avg_score_list(X_train, y_train)[1]
     allscore_df["Average_recall_score"] = avg_score_list(X_train, y_train)[2]
     allscore_df["Average_f1-score"] = avg_score_list(X_train, y_train)[3]
+    allscore_df["Average_auc_score"] = avg_score_list(X_train, y_train)[4]
     return allscore_df
 
 
