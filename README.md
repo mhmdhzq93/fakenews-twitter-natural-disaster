@@ -1,5 +1,6 @@
-## Natural Disaster Fake Tweets Detection
-This is a repository of research project (WQD7002) consisting of datasets, EDA notebook, classifier module and application
+## Natural Disaster Fake Tweets Detection Web Application
+This is a repository of research project (WQD7002) consisting of datasets, EDA notebook, classifier module and application source codes.
+The model is deployed as web application using Flask
 
 ### Objective
 1) To implement supervised learning approach and Natural Language Processing (NLP) techniques on the natural disaster tweets.
