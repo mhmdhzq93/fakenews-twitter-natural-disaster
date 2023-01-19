@@ -9,9 +9,9 @@ This is a repository of research project (WQD7002) consisting of datasets, EDA n
 Source of dataset is obtained and extracted from https://www.kaggle.com/datasets/vstepanenko/disaster-tweets
 
 ### How to deploy the model as web app (Flask)
-1) Create a conda virtual environment
+1) Create a conda virtual environment with Python 3
 2) Install the required packages from requirements.txt
-3) Run the app.py file
+3) Run the app.py pyscript file
 4) Copy and paste the given Flask IP adress in your browser
 5) Done!
 
