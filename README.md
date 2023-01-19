@@ -17,4 +17,4 @@ Source of dataset is obtained and extracted from https://www.kaggle.com/datasets
 5) Done!
 
 #### Disclaimer
-Unfortunately, the pickle model file is too large to be uploaded into Git (i.e. 130MB)
+Unfortunately, the pickle model file is too large to be stored in GitHub (i.e. 130MB)
